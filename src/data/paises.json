@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "brasil",
+    "nome": "Brasil",
+    "continente": "América do Sul",
+    "populacao": "214 milhões",
+    "indiceFelicidade": 6.3,
+    "curiosidade": "Maior exportador de café do mundo.",
+    "eventoAtual": "Seca histórica no Nordeste.",
+    "imagem": "/images/brasil.png"
+  },
+  {
+    "slug": "japao",
+    "nome": "Japão",
+    "continente": "Ásia",
+    "populacao": "125 milhões",
+    "indiceFelicidade": 5.9,
+    "curiosidade": "Maior expectativa de vida do mundo.",
+    "eventoAtual": "Avanço em IA aplicada à saúde.",
+    "imagem": "/images/japao.png"
+  }
+]
