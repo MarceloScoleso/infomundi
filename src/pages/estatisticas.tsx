@@ -52,7 +52,7 @@ export default function Estatisticas() {
         <title>Estatísticas - InfoMundi 🌍</title>
       </Head>
 
-      <BotaoVoltar />
+      
 
       <section className="space-y-12">
         <h1 className="text-3xl font-bold text-blue-700 dark:text-blue-300 text-center">
@@ -158,6 +158,8 @@ export default function Estatisticas() {
             </div>
           </div>
         )}
+
+        <BotaoVoltar />
       </section>
     </Layout>
   );

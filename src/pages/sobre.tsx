@@ -10,7 +10,7 @@ export default function Sobre() {
       </Head>
 
       <section className="max-w-3xl mx-auto space-y-6">
-        <BotaoVoltar />
+        
 
         <h1 className="text-4xl font-bold text-blue-700 dark:text-blue-300">
           Sobre o Projeto
@@ -45,6 +45,8 @@ export default function Sobre() {
         <p className="text-gray-700 dark:text-gray-300">
           O projeto é uma iniciativa educacional e demonstrativa, com foco em boas práticas de desenvolvimento front-end e organização de componentes reutilizáveis.
         </p>
+
+        <BotaoVoltar />
       </section>
     </Layout>
   )

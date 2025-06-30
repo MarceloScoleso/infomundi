@@ -33,7 +33,6 @@ export default function Header() {
         <nav className="hidden md:flex space-x-6 text-blue-600 dark:text-blue-400 font-medium">
           <Link href="/" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Home</Link>
           <Link href="/sobre" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Sobre</Link>
-          <Link href="/paises" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Países</Link>
           <Link href="/estatisticas" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Estatísticas</Link>
           <Link href="/contato" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Contato</Link>
         </nav>
@@ -78,7 +77,6 @@ export default function Header() {
         <nav className="md:hidden bg-white dark:bg-gray-800 px-6 py-4 space-y-4 border-t border-gray-200 dark:border-gray-700 transition-colors duration-500">
           <Link href="/" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/sobre" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Sobre</Link>
-          <Link href="/paises" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Países</Link>
           <Link href="/estatisticas" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Estatísticas</Link>
           <Link href="/contato" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Contato</Link>
         </nav>

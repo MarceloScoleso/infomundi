@@ -45,6 +45,11 @@ export const getStaticProps: GetStaticProps = async () => {
   const jsonData = fs.readFileSync(filePath, "utf-8")
   const paises: Pais[] = JSON.parse(jsonData)
 
+  // Ordena os países em ordem alfabética ignorando acentos
+  paises.sort((a, b) =>
+    a.nome.localeCompare(b.nome, "pt", { sensitivity: "base" })
+  )
+
   return {
     props: { paises },
   }
