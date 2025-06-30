@@ -22,7 +22,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-white dark:bg-gray-800 shadow sticky top-0 z-50 transition-colors duration-500">
+    <header className="bg-gray-100 dark:bg-gray-800 shadow sticky top-0 z-50 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="text-blue-600 dark:text-blue-400 text-3xl font-extrabold tracking-tight hover:text-indigo-500 dark:hover:text-indigo-300 transition">

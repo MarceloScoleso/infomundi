@@ -1,22 +1,96 @@
 [
   {
-    "slug": "brasil",
-    "nome": "Brasil",
-    "continente": "América do Sul",
-    "populacao": "214 milhões",
-    "indiceFelicidade": 6.3,
-    "curiosidade": "Maior exportador de café do mundo.",
-    "eventoAtual": "Seca histórica no Nordeste.",
-    "imagem": "/images/brasil.png"
+  "slug": "brasil",
+  "nome": "Brasil",
+  "continente": "América do Sul",
+  "populacao": "214 milhões",
+  "indiceFelicidade": 6.3,
+  "linguaOficial": "Português",
+  "moeda": "Real (BRL)",
+  "capital": "Brasília",
+  "area": "8.515.767 km²",
+  "pib": "1,44 trilhão USD (2023)",
+  "clima": "Predominantemente tropical",
+  "principaisCidades": ["São Paulo", "Rio de Janeiro", "Salvador", "Brasília"],
+  "turismo": ["Cristo Redentor", "Pantanal", "Amazônia", "Praias do Nordeste"],
+  "feriadosPrincipais": ["Carnaval", "Festa Junina", "Independência (7 de setembro)"],
+  "populacaoUrbanaRural": "87% urbana, 13% rural",
+  "esportesPopulares": ["Futebol", "Vôlei", "Capoeira"],
+  "curiosidades": [
+    "Maior exportador de café do mundo.",
+    "Possui a maior floresta tropical do planeta.",
+    "Tem a maior população católica do mundo.",
+    "O futebol é uma paixão nacional, com 5 títulos mundiais.",
+    "O Brasil tem uma diversidade cultural enorme, com influências indígenas, africanas e europeias."
+  ],
+  "dadosDemograficos": {
+    "expectativaVida": "76 anos",
+    "taxaAlfabetizacao": "93%",
+    "indiceDesenvolvimentoHumano": "0,765 (alto)"
+  },
+  "comidasTipicas": [
+    "Feijoada",
+    "Pão de queijo",
+    "Acarajé"
+  ],
+  "principaisExportacoes": ["Soja", "Minério de ferro", "Petróleo", "Café"],
+  "eventoAtual": "Seca histórica no Nordeste.",
+  "imagem": "/images/brasil.png"
   },
   {
-    "slug": "japao",
-    "nome": "Japão",
-    "continente": "Ásia",
-    "populacao": "125 milhões",
-    "indiceFelicidade": 5.9,
-    "curiosidade": "Maior expectativa de vida do mundo.",
-    "eventoAtual": "Avanço em IA aplicada à saúde.",
-    "imagem": "/images/japao.png"
+  "slug": "japao",
+  "nome": "Japão",
+  "continente": "Ásia",
+  "populacao": "125 milhões",
+  "indiceFelicidade": 5.9,
+  "linguaOficial": "Japonês",
+  "moeda": "Iene (JPY)",
+  "capital": "Tóquio",
+  "area": "377.975 km²",
+  "pib": "4,2 trilhões USD (2023)",
+  "clima": "Temperado, com quatro estações bem definidas",
+  "principaisCidades": ["Tóquio", "Osaka", "Quioto", "Yokohama", "Sapporo"],
+  "turismo": [
+    "Monte Fuji",
+    "Templo Kiyomizu-dera",
+    "Castelo de Himeji",
+    "Mercado de peixes de Tsukiji",
+    "Cerejeiras em flor (Sakura)"
+  ],
+  "feriadosPrincipais": [
+    "Ano Novo (Shōgatsu)",
+    "Golden Week",
+    "Dia da Fundação Nacional",
+    "Festival Obon"
+  ],
+  "populacaoUrbanaRural": "91% urbana, 9% rural",
+  "esportesPopulares": ["Sumô", "Beisebol", "Judô", "Futebol"],
+  "curiosidades": [
+    "Maior expectativa de vida do mundo, cerca de 84 anos.",
+    "Cultura milenar com forte tradição em cerimônias e etiqueta.",
+    "Tecnologia de ponta em transporte — os trens-bala (Shinkansen) podem ultrapassar 300 km/h.",
+    "O Japão tem mais de 6.800 ilhas, sendo as principais Honshu, Hokkaido, Kyushu e Shikoku.",
+    "É um dos países mais seguros do mundo, com baixíssima taxa de criminalidade."
+  ],
+  "dadosDemograficos": {
+    "expectativaVida": "84 anos",
+    "taxaAlfabetizacao": "99%",
+    "indiceDesenvolvimentoHumano": "0,925 (muito alto)"
+  },
+  "comidasTipicas": [
+    "Sushi",
+    "Ramen",
+    "Tempurá",
+    "Okonomiyaki",
+    "Takoyaki"
+  ],
+  "principaisExportacoes": [
+    "Automóveis",
+    "Componentes eletrônicos",
+    "Máquinas industriais",
+    "Tecnologia e robótica"
+  ],
+  "eventoAtual": "Avanço em IA aplicada à saúde.",
+  "imagem": "/images/japao.png"
   }
 ]

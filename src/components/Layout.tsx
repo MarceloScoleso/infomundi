@@ -3,7 +3,7 @@ import Header from "./Header"
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-500">
+    <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-500">
       <Header />
       <main className="flex-grow max-w-7xl mx-auto px-6 py-10">
         {children}
