@@ -510,38 +510,6 @@
     "imagem": "/images/espanha.png"
   },
   {
-    "slug": "inglaterra",
-    "nome": "Inglaterra",
-    "continente": "Europa",
-    "populacao": "56 milhões (parte do Reino Unido)",
-    "indiceFelicidade": 7.2,
-    "linguaOficial": "Inglês",
-    "moeda": "Libra esterlina (GBP)",
-    "capital": "Londres",
-    "area": "130.279 km²",
-    "pib": "3,2 trilhões USD (Reino Unido, 2023)",
-    "clima": "Temperado oceânico",
-    "principaisCidades": ["Londres", "Manchester", "Birmingham", "Liverpool"],
-    "turismo": ["Big Ben", "London Eye", "Stonehenge"],
-    "feriadosPrincipais": ["Natal", "Bank Holidays"],
-    "populacaoUrbanaRural": "83% urbana, 17% rural",
-    "esportesPopulares": ["Futebol", "Rúgbi", "Críquete"],
-    "curiosidades": [
-      "Berço da Revolução Industrial.",
-      "Tem uma das monarquias mais antigas do mundo.",
-      "Fundadora do Parlamento moderno."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "81 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,922 (muito alto)"
-    },
-    "comidasTipicas": ["Fish and chips", "Shepherd’s pie", "Roast beef"],
-    "principaisExportacoes": ["Produtos financeiros", "Fármacos", "Automóveis", "Tecnologia"],
-    "eventoAtual": "Ajustes pós-Brexit e custo de vida em debate.",
-    "imagem": "/images/inglaterra.png"
-  },
-  {
     "slug": "arabia-saudita",
     "nome": "Arábia Saudita",
     "continente": "Ásia",
@@ -2363,7 +2331,7 @@
     "comidasTipicas": ["Ema datshi", "Red rice", "Phaksha paa"],
     "principaisExportacoes": ["Eletricidade hidrelétrica", "Produtos agrícolas", "Madeira"],
     "eventoAtual": "Foco em sustentabilidade e turismo controlado.",
-    "imagem": "/images/buthan.png"
+    "imagem": "/images/butao.png"
   },
   {
     "slug": "fiji",
@@ -2622,38 +2590,6 @@
     "imagem": "/images/timor-leste.png"
   },
   {
-    "slug": "malaui",
-    "nome": "Malaui",
-    "continente": "África",
-    "populacao": "19,3 milhões",
-    "indiceFelicidade": 4.3,
-    "linguaOficial": "Inglês, Chichewa",
-    "moeda": "Kwacha malauiano (MWK)",
-    "capital": "Lilongwe",
-    "area": "118.484 km²",
-    "pib": "12,6 bilhões USD (2023)",
-    "clima": "Tropical de altitude",
-    "principaisCidades": ["Lilongwe", "Blantyre", "Mzuzu"],
-    "turismo": ["Lago Niassa", "Parque Nacional do Lago Malawi", "Montanhas Mulanje"],
-    "feriadosPrincipais": ["Dia da Independência", "Natal"],
-    "populacaoUrbanaRural": "17% urbana, 83% rural",
-    "esportesPopulares": ["Futebol", "Netball"],
-    "curiosidades": [
-      "Conhecido como o 'Coração quente da África'.",
-      "Lago Malawi é um dos maiores lagos de água doce do mundo.",
-      "Economia baseada principalmente na agricultura."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "65 anos",
-      "taxaAlfabetizacao": "62%",
-      "indiceDesenvolvimentoHumano": "0,483 (baixo)"
-    },
-    "comidasTipicas": ["Nsima", "Chambo", "Kondowole"],
-    "principaisExportacoes": ["Tabaco", "Salgueiro", "Cana-de-açúcar"],
-    "eventoAtual": "Esforços para melhorar infraestrutura e saúde pública.",
-    "imagem": "/images/malaui.png"
-  },
-  {
     "slug": "suriname",
     "nome": "Suriname",
     "continente": "América do Sul",
@@ -2846,8 +2782,8 @@
     "imagem": "/images/eritreia.png"
   },
   {
-    "slug": "seychelles",
-    "nome": "Seychelles",
+    "slug": "seicheles",
+    "nome": "Seicheles",
     "continente": "África",
     "populacao": "99 mil",
     "indiceFelicidade": 6.4,
@@ -4414,38 +4350,6 @@
     "imagem": "/images/papua-nova-guine.png"
   },
   {
-    "slug": "ilhas-mauricio",
-    "nome": "Ilhas Maurício",
-    "continente": "África",
-    "populacao": "1,3 milhão",
-    "indiceFelicidade": 6.2,
-    "linguaOficial": ["Inglês", "Francês"],
-    "moeda": "Rupia mauriciana (MUR)",
-    "capital": "Port Louis",
-    "area": "2.040 km²",
-    "pib": "15 bilhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Port Louis", "Curepipe", "Quatre Bornes"],
-    "turismo": ["Praias", "Parques naturais", "Cultura diversificada"],
-    "feriadosPrincipais": ["Dia da Independência", "Ano Novo"],
-    "populacaoUrbanaRural": "41% urbana, 59% rural",
-    "esportesPopulares": ["Futebol", "Críquete"],
-    "curiosidades": [
-      "Economia diversificada e estável.",
-      "Famosa por praias paradisíacas.",
-      "História multicultural."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "74 anos",
-      "taxaAlfabetizacao": "91%",
-      "indiceDesenvolvimentoHumano": "0,796 (alto)"
-    },
-    "comidasTipicas": ["Dholl puri", "Octopus curry", "Biryani"],
-    "principaisExportacoes": ["Açúcar", "Têxteis", "Produtos financeiros"],
-    "eventoAtual": "Promoção do turismo sustentável e inovação.",
-    "imagem": "/images/ilhas-mauricio.png"
-  },
-  {
     "slug": "coreia-do-norte",
     "nome": "Coreia do Norte",
     "continente": "Ásia",
@@ -4508,38 +4412,6 @@
     "principaisExportacoes": ["Banana", "Coco", "Agricultura"],
     "eventoAtual": "Recuperação após furacões recentes.",
     "imagem": "/images/dominica.png"
-  },
-  {
-    "slug": "sao-bartolomeu",
-    "nome": "São Bartolomeu",
-    "continente": "América Central",
-    "populacao": "10 mil",
-    "indiceFelicidade": 6.8,
-    "linguaOficial": "Francês",
-    "moeda": "Euro (EUR)",
-    "capital": "Gustavia",
-    "area": "21 km²",
-    "pib": "170 milhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Gustavia"],
-    "turismo": ["Praias de luxo", "Eventos culturais", "Iates e iatismo"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "100% urbana",
-    "esportesPopulares": ["Vela", "Golfe"],
-    "curiosidades": [
-      "Território ultramarino francês.",
-      "Destino turístico exclusivo para luxo.",
-      "Economia baseada em turismo e serviços financeiros."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "82 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,903 (muito alto)"
-    },
-    "comidasTipicas": ["Frutos do mar", "Culinária francesa", "Pratos gourmet"],
-    "principaisExportacoes": ["Turismo", "Serviços financeiros"],
-    "eventoAtual": "Crescimento do turismo de luxo e sustentabilidade.",
-    "imagem": "/images/sao-bartolomeu.png"
   },
   {
     "slug": "somalia",
@@ -4734,38 +4606,6 @@
     "imagem": "/images/niger.png"
   },
   {
-    "slug": "guiana-francesa",
-    "nome": "Guiana Francesa",
-    "continente": "América do Sul",
-    "populacao": "300 mil",
-    "indiceFelicidade": 6.1,
-    "linguaOficial": "Francês",
-    "moeda": "Euro (EUR)",
-    "capital": "Caiena",
-    "area": "83.534 km²",
-    "pib": "5 bilhões USD (2023)",
-    "clima": "Equatorial",
-    "principaisCidades": ["Caiena", "Saint-Laurent-du-Maroni"],
-    "turismo": ["Florestas tropicais", "Lançamentos espaciais", "Cultura criola"],
-    "feriadosPrincipais": ["Dia da Bastilha", "Natal"],
-    "populacaoUrbanaRural": "85% urbana, 15% rural",
-    "esportesPopulares": ["Futebol", "Basquete"],
-    "curiosidades": [
-      "Território ultramarino da França na América do Sul.",
-      "Sede do Centro Espacial da Guiana.",
-      "Grande biodiversidade na floresta amazônica."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "76 anos",
-      "taxaAlfabetizacao": "98%",
-      "indiceDesenvolvimentoHumano": "0,820 (alto)"
-    },
-    "comidasTipicas": ["Calou", "Awara broth", "Blaff"],
-    "principaisExportacoes": ["Ouro", "Madeira", "Banana"],
-    "eventoAtual": "Projetos de conservação e inovação espacial.",
-    "imagem": "/images/guiana-francesa.png"
-  },
-  {
     "slug": "mauritania",
     "nome": "Mauritânia",
     "continente": "África",
@@ -4798,70 +4638,6 @@
     "imagem": "/images/mauritania.png"
   },
   {
-    "slug": "sao-pedro-e-miquelon",
-    "nome": "São Pedro e Miquelon",
-    "continente": "América do Norte",
-    "populacao": "6 mil",
-    "indiceFelicidade": 6.5,
-    "linguaOficial": "Francês",
-    "moeda": "Euro (EUR)",
-    "capital": "Saint-Pierre",
-    "area": "242 km²",
-    "pib": "140 milhões USD (2023)",
-    "clima": "Temperado oceânico",
-    "principaisCidades": ["Saint-Pierre", "Miquelon"],
-    "turismo": ["Pesca", "Arquitetura colonial francesa", "Trilhas naturais"],
-    "feriadosPrincipais": ["Dia Nacional da França", "Natal"],
-    "populacaoUrbanaRural": "100% urbana",
-    "esportesPopulares": ["Pesca esportiva", "Caminhadas"],
-    "curiosidades": [
-      "Último território francês na América do Norte.",
-      "Cultura influenciada pela França e Canadá.",
-      "Economia baseada em pesca e turismo."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "81 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,910 (muito alto)"
-    },
-    "comidasTipicas": ["Mariscos", "Peixes frescos", "Pratos franceses"],
-    "principaisExportacoes": ["Peixe", "Produtos do mar"],
-    "eventoAtual": "Promoção do turismo ecológico e cultural.",
-    "imagem": "/images/sao-pedro-e-miquelon.png"
-  },
-  {
-    "slug": "ilhas-cook",
-    "nome": "Ilhas Cook",
-    "continente": "Oceania",
-    "populacao": "18 mil",
-    "indiceFelicidade": 7.2,
-    "linguaOficial": ["Inglês", "Maori das Ilhas Cook"],
-    "moeda": "Dólar das Ilhas Cook (NZD)",
-    "capital": "Avarua",
-    "area": "236 km²",
-    "pib": "350 milhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Avarua", "Arorangi"],
-    "turismo": ["Mergulho", "Praias paradisíacas", "Cultura polinésia"],
-    "feriadosPrincipais": ["Dia da Independência", "Natal"],
-    "populacaoUrbanaRural": "60% urbana, 40% rural",
-    "esportesPopulares": ["Futebol", "Canoagem"],
-    "curiosidades": [
-      "Autonomia em livre associação com a Nova Zelândia.",
-      "Economia baseada em turismo e pesca.",
-      "Beleza natural e cultura polinésia rica."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "74 anos",
-      "taxaAlfabetizacao": "98%",
-      "indiceDesenvolvimentoHumano": "0,780 (alto)"
-    },
-    "comidasTipicas": ["Pokē", "Uru", "Ika Mata"],
-    "principaisExportacoes": ["Turismo", "Frutos do mar"],
-    "eventoAtual": "Iniciativas para turismo sustentável e preservação cultural.",
-    "imagem": "/images/ilhas-cook.png"
-  },
-  {
     "slug": "montenegro",
     "nome": "Montenegro",
     "continente": "Europa",
@@ -4892,676 +4668,6 @@
     "principaisExportacoes": ["Alumínio", "Produtos agrícolas", "Turismo"],
     "eventoAtual": "Investimentos em infraestrutura turística e energia renovável.",
     "imagem": "/images/montenegro.png"
-  },
-  {
-    "slug": "ilhas-malvinas",
-    "nome": "Ilhas Malvinas",
-    "continente": "América do Sul",
-    "populacao": "3.400",
-    "indiceFelicidade": 6.3,
-    "linguaOficial": "Inglês",
-    "moeda": "Libra Malvinense (paridade com GBP)",
-    "capital": "Stanley",
-    "area": "12.173 km²",
-    "pib": "70 milhões USD (2023)",
-    "clima": "Subpolar oceânico",
-    "principaisCidades": ["Stanley", "Mount Pleasant"],
-    "turismo": ["Observação de pinguins", "Vida selvagem", "História militar"],
-    "feriadosPrincipais": ["Dia da Libertação", "Natal"],
-    "populacaoUrbanaRural": "100% urbana (na capital e vilas)",
-    "esportesPopulares": ["Rugby", "Pesca esportiva"],
-    "curiosidades": [
-      "Disputadas entre Reino Unido e Argentina.",
-      "Grande população de pinguins e vida marinha.",
-      "Economia baseada em pesca e turismo."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "79 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,850 (alto)"
-    },
-    "comidasTipicas": ["Carne bovina", "Peixe fresco"],
-    "principaisExportacoes": ["Peixes e frutos do mar", "Produtos agrícolas"],
-    "eventoAtual": "Aumento do turismo ecológico e sustentável.",
-    "imagem": "/images/ilhas-malvinas.png"
-  },
-  {
-    "slug": "groenlandia",
-    "nome": "Groenlândia",
-    "continente": "América do Norte",
-    "populacao": "56 mil",
-    "indiceFelicidade": 6.2,
-    "linguaOficial": "Groenlandês, Dinamarquês",
-    "moeda": "Coroa Dinamarquesa (DKK)",
-    "capital": "Nuuk",
-    "area": "2.166.086 km²",
-    "pib": "2,7 bilhões USD (2023)",
-    "clima": "Ártico",
-    "principaisCidades": ["Nuuk", " Sisimiut", "Ilulissat"],
-    "turismo": ["Glaciares", "Aurora boreal", "Vida inuit"],
-    "feriadosPrincipais": ["Dia Nacional da Groenlândia", "Natal"],
-    "populacaoUrbanaRural": "60% urbana, 40% rural",
-    "esportesPopulares": ["Hóquei no gelo", "Corrida de trenós"],
-    "curiosidades": [
-      "Maior ilha do mundo, quase totalmente coberta por gelo.",
-      "Autonomia dentro do Reino da Dinamarca.",
-      "Importante para pesquisas climáticas."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "72 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,760 (médio-alto)"
-    },
-    "comidasTipicas": ["Carne de peixe", "Focas e baleias"],
-    "principaisExportacoes": ["Peixes", "Minérios"],
-    "eventoAtual": "Impactos do aquecimento global e turismo crescente.",
-    "imagem": "/images/groenlandia.png"
-  },
-  {
-    "slug": "curacao",
-    "nome": "Curaçao",
-    "continente": "América Central",
-    "populacao": "160 mil",
-    "indiceFelicidade": 6.7,
-    "linguaOficial": "Neerlandês, Papiamento, Inglês",
-    "moeda": "Florim das Antilhas Neerlandesas (ANG)",
-    "capital": "Willemstad",
-    "area": "444 km²",
-    "pib": "3,2 bilhões USD (2023)",
-    "clima": "Tropical semiárido",
-    "turismo": ["Praias", "Mergulho", "Cultura caribenha"],
-    "feriadosPrincipais": ["Dia da Independência (Países Baixos)", "Carnaval"],
-    "populacaoUrbanaRural": "95% urbana, 5% rural",
-    "esportesPopulares": ["Beisebol", "Futebol"],
-    "curiosidades": [
-      "Parte do Reino dos Países Baixos.",
-      "Famosa pela arquitetura colorida colonial.",
-      "Economia baseada em turismo e finanças."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "74 anos",
-      "taxaAlfabetizacao": "97%",
-      "indiceDesenvolvimentoHumano": "0,780 (alto)"
-    },
-    "comidasTipicas": ["Peixe grelhado", "Frutos do mar", "Arroz com guisado"],
-    "principaisExportacoes": ["Turismo", "Petróleo refinado"],
-    "eventoAtual": "Desenvolvimento de turismo sustentável e cultura local.",
-    "imagem": "/images/curacao.png"
-  },
-  {
-    "slug": "gibraltar",
-    "nome": "Gibraltar",
-    "continente": "Europa",
-    "populacao": "34 mil",
-    "indiceFelicidade": 6.9,
-    "linguaOficial": "Inglês",
-    "moeda": "Libra de Gibraltar (GIP)",
-    "capital": "Gibraltar",
-    "area": "6,8 km²",
-    "pib": "1,2 bilhões USD (2023)",
-    "clima": "Mediterrâneo",
-    "principaisCidades": ["Gibraltar"],
-    "turismo": ["Rocha de Gibraltar", "Cavernas", "Vida selvagem"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "100% urbana",
-    "esportesPopulares": ["Futebol", "Golfe"],
-    "curiosidades": [
-      "Território britânico ultramarino.",
-      "Famoso pela rocha que domina a região.",
-      "Ponto estratégico entre Europa e África."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "81 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,870 (muito alto)"
-    },
-    "comidasTipicas": ["Peixe fresco", "Pratos britânicos", "Tapas"],
-    "principaisExportacoes": ["Serviços financeiros", "Turismo"],
-    "eventoAtual": "Discussões sobre fronteira pós-Brexit.",
-    "imagem": "/images/gibraltar.png"
-  },
-  {
-    "slug": "ilhas-turks-e-caicos",
-    "nome": "Ilhas Turks e Caicos",
-    "continente": "América Central",
-    "populacao": "44 mil",
-    "indiceFelicidade": 6.8,
-    "linguaOficial": "Inglês",
-    "moeda": "Dólar dos EUA (USD)",
-    "capital": "Cockburn Town",
-    "area": "430 km²",
-    "pib": "560 milhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Cockburn Town", "Grand Turk"],
-    "turismo": ["Praias", "Mergulho", "Resorts de luxo"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "80% urbana, 20% rural",
-    "esportesPopulares": ["Vela", "Basquete"],
-    "curiosidades": [
-      "Território britânico ultramarino.",
-      "Conhecido por turismo de luxo e pesca esportiva.",
-      "Economia baseada em turismo e serviços financeiros."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "78 anos",
-      "taxaAlfabetizacao": "98%",
-      "indiceDesenvolvimentoHumano": "0,820 (alto)"
-    },
-    "comidasTipicas": ["Frutos do mar", "Culinária caribenha"],
-    "principaisExportacoes": ["Turismo", "Serviços financeiros"],
-    "eventoAtual": "Investimentos em infraestrutura turística sustentável.",
-    "imagem": "/images/ilhas-turks-e-caicos.png"
-  },
-  {
-    "slug": "anguilla",
-    "nome": "Anguilla",
-    "continente": "América Central",
-    "populacao": "15 mil",
-    "indiceFelicidade": 6.7,
-    "linguaOficial": "Inglês",
-    "moeda": "Dólar dos EUA (USD)",
-    "capital": "The Valley",
-    "area": "91 km²",
-    "pib": "300 milhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["The Valley", "South Hill"],
-    "turismo": ["Praias", "Mergulho", "Resorts"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "70% urbana, 30% rural",
-    "esportesPopulares": ["Vela", "Futebol"],
-    "curiosidades": [
-      "Território britânico ultramarino.",
-      "Conhecida por praias de areia branca e turismo de luxo.",
-      "Economia baseada em turismo e serviços financeiros."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "79 anos",
-      "taxaAlfabetizacao": "97%",
-      "indiceDesenvolvimentoHumano": "0,810 (alto)"
-    },
-    "comidasTipicas": ["Peixe grelhado", "Frutos do mar", "Culinária caribenha"],
-    "principaisExportacoes": ["Turismo", "Serviços financeiros"],
-    "eventoAtual": "Expansão do turismo sustentável.",
-    "imagem": "/images/anguilla.png"
-  },
-  {
-    "slug": "ilhas-cayman",
-    "nome": "Ilhas Cayman",
-    "continente": "América Central",
-    "populacao": "70 mil",
-    "indiceFelicidade": 7.0,
-    "linguaOficial": "Inglês",
-    "moeda": "Dólar das Ilhas Cayman (KYD)",
-    "capital": "George Town",
-    "area": "264 km²",
-    "pib": "4,7 bilhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["George Town", "West Bay"],
-    "turismo": ["Mergulho", "Praias", "Serviços financeiros"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "90% urbana, 10% rural",
-    "esportesPopulares": ["Futebol", "Vela"],
-    "curiosidades": [
-      "Importante centro financeiro offshore.",
-      "Famosa por belas praias e recifes de coral.",
-      "Economia baseada em finanças e turismo."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "80 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,850 (alto)"
-    },
-    "comidasTipicas": ["Peixe fresco", "Carne de porco", "Pratos caribenhos"],
-    "principaisExportacoes": ["Serviços financeiros", "Turismo"],
-    "eventoAtual": "Crescimento do turismo e setor financeiro.",
-    "imagem": "/images/ilhas-cayman.png"
-  },
-  {
-    "slug": "aruba",
-    "nome": "Aruba",
-    "continente": "América Central",
-    "populacao": "110 mil",
-    "indiceFelicidade": 6.8,
-    "linguaOficial": "Neerlandês, Papiamento, Inglês",
-    "moeda": "Florim das Antilhas Neerlandesas (ANG)",
-    "capital": "Oranjestad",
-    "area": "180 km²",
-    "pib": "2,8 bilhões USD (2023)",
-    "clima": "Semiárido tropical",
-    "turismo": ["Praias", "Mergulho", "Cassinos"],
-    "feriadosPrincipais": ["Dia da Constituição", "Carnaval"],
-    "populacaoUrbanaRural": "95% urbana, 5% rural",
-    "esportesPopulares": ["Futebol", "Beisebol"],
-    "curiosidades": [
-      "Parte do Reino dos Países Baixos.",
-      "Conhecida por suas praias e turismo.",
-      "Clima seco e ensolarado o ano todo."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "75 anos",
-      "taxaAlfabetizacao": "98%",
-      "indiceDesenvolvimentoHumano": "0,790 (alto)"
-    },
-    "comidasTipicas": ["Frutos do mar", "Culinária caribenha", "Pratos com peixe"],
-    "principaisExportacoes": ["Turismo", "Serviços financeiros"],
-    "eventoAtual": "Iniciativas para turismo sustentável e diversificação econômica.",
-    "imagem": "/images/aruba.png"
-  },
-  {
-    "slug": "ilhas-virgens-britanicas",
-    "nome": "Ilhas Virgens Britânicas",
-    "continente": "América Central",
-    "populacao": "30 mil",
-    "indiceFelicidade": 6.6,
-    "linguaOficial": "Inglês",
-    "moeda": "Dólar dos EUA (USD)",
-    "capital": "Road Town",
-    "area": "153 km²",
-    "pib": "1,1 bilhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Road Town", "Spanish Town"],
-    "turismo": ["Vela", "Mergulho", "Praias"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "75% urbana, 25% rural",
-    "esportesPopulares": ["Vela", "Futebol"],
-    "curiosidades": [
-      "Território britânico ultramarino.",
-      "Importante centro financeiro offshore.",
-      "Famosa por suas ilhas e praias paradisíacas."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "78 anos",
-      "taxaAlfabetizacao": "98%",
-      "indiceDesenvolvimentoHumano": "0,820 (alto)"
-    },
-    "comidasTipicas": ["Frutos do mar", "Culinária caribenha"],
-    "principaisExportacoes": ["Turismo", "Serviços financeiros"],
-    "eventoAtual": "Investimentos em turismo sustentável e serviços financeiros.",
-    "imagem": "/images/ilhas-virgens-britanicas.png"
-  },
-  {
-    "slug": "kosovo",
-    "nome": "Kosovo",
-    "continente": "Europa",
-    "populacao": "1,8 milhão",
-    "indiceFelicidade": 5.9,
-    "linguaOficial": "Albanês, Sérvio",
-    "moeda": "Euro (EUR)",
-    "capital": "Pristina",
-    "area": "10.887 km²",
-    "pib": "8,2 bilhões USD (2023)",
-    "clima": "Continental",
-    "principaisCidades": ["Pristina", "Prizren", "Peć"],
-    "turismo": ["Montanhas", "Sítios históricos", "Lagos"],
-    "feriadosPrincipais": ["Dia da Independência", "Natal Ortodoxo", "Eid al-Fitr"],
-    "populacaoUrbanaRural": "40% urbana, 60% rural",
-    "esportesPopulares": ["Futebol", "Basquete"],
-    "curiosidades": [
-      "Declarou independência em 2008.",
-      "Reconhecido por mais de 100 países.",
-      "Diversidade étnica e cultural."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "72 anos",
-      "taxaAlfabetizacao": "91%",
-      "indiceDesenvolvimentoHumano": "0,750 (médio)"
-    },
-    "comidasTipicas": ["Flia", "Pite", "Suxhuk"],
-    "principaisExportacoes": ["Minerais", "Agricultura"],
-    "eventoAtual": "Aumento do investimento estrangeiro e turismo.",
-    "imagem": "/images/kosovo.png"
-  },
-  {
-    "slug": "vaticano",
-    "nome": "Cidade do Vaticano",
-    "continente": "Europa",
-    "populacao": "800",
-    "indiceFelicidade": 7.2,
-    "linguaOficial": "Italiano, Latim",
-    "moeda": "Euro (EUR)",
-    "capital": "Cidade do Vaticano",
-    "area": "0,44 km²",
-    "pib": "Não divulgado (economia baseada em doações e turismo)",
-    "clima": "Mediterrâneo",
-    "principaisCidades": ["Cidade do Vaticano"],
-    "turismo": ["Basílica de São Pedro", "Museus do Vaticano", "Capela Sistina"],
-    "feriadosPrincipais": ["Natal", "Páscoa", "Aniversário do Papa"],
-    "populacaoUrbanaRural": "100% urbana",
-    "esportesPopulares": ["Futebol"],
-    "curiosidades": [
-      "Menor país do mundo em área e população.",
-      "Sede da Igreja Católica Romana.",
-      "Possui sua própria força policial e correios."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "83 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,950 (muito alto)"
-    },
-    "comidasTipicas": ["Culinária italiana regional"],
-    "principaisExportacoes": ["Publicações religiosas", "Produtos de arte sacra"],
-    "eventoAtual": "Aumento do turismo religioso pós-pandemia.",
-    "imagem": "/images/vaticano.png"
-  },
-  {
-    "slug": "palestina",
-    "nome": "Palestina",
-    "continente": "Ásia",
-    "populacao": "5,2 milhões",
-    "indiceFelicidade": 4.8,
-    "linguaOficial": "Árabe",
-    "moeda": "Shekel Israelense (ILS), Dinar Jordaniano (JOD)",
-    "capital": "Ramallah (administrativa)",
-    "area": "6.020 km²",
-    "pib": "15 bilhões USD (2023)",
-    "clima": "Mediterrâneo",
-    "principaisCidades": ["Gaza", "Hebron", "Nablus"],
-    "turismo": ["Locais religiosos", "Ruínas arqueológicas", "Mercados tradicionais"],
-    "feriadosPrincipais": ["Dia da Independência", "Ramadã", "Natal"],
-    "populacaoUrbanaRural": "75% urbana, 25% rural",
-    "esportesPopulares": ["Futebol", "Basquete"],
-    "curiosidades": [
-      "Reconhecimento limitado como Estado.",
-      "Conflito histórico com Israel.",
-      "Importante patrimônio cultural e religioso."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "74 anos",
-      "taxaAlfabetizacao": "96%",
-      "indiceDesenvolvimentoHumano": "0,700 (médio-baixo)"
-    },
-    "comidasTipicas": ["Falafel", "Hummus", "Knafeh"],
-    "principaisExportacoes": ["Agricultura", "Produtos manufaturados"],
-    "eventoAtual": "Esforços para avanços em negociações de paz e desenvolvimento.",
-    "imagem": "/images/palestina.png"
-  },
-  {
-    "slug": "sahara-ocidental",
-    "nome": "Saara Ocidental",
-    "continente": "África",
-    "populacao": "600 mil",
-    "indiceFelicidade": 4.5,
-    "linguaOficial": "Árabe, Espanhol",
-    "moeda": "Dirham Marroquino (MAD), Dírham Saharaui",
-    "capital": "El Aaiún (administrativa)",
-    "area": "266.000 km²",
-    "pib": "Não disponível",
-    "clima": "Desértico",
-    "principaisCidades": ["El Aaiún", "Dakhla", "Smara"],
-    "turismo": ["Deserto do Saara", "Cultura berbere", "Esportes de aventura"],
-    "feriadosPrincipais": ["Dia da Independência", "Dia da Revolução"],
-    "populacaoUrbanaRural": "45% urbana, 55% rural",
-    "esportesPopulares": ["Corrida de camelos", "Futebol"],
-    "curiosidades": [
-      "Território em disputa entre Marrocos e o movimento Polisário.",
-      "Clima árido extremo.",
-      "Presença de reservas naturais e minerais."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "65 anos",
-      "taxaAlfabetizacao": "70%",
-      "indiceDesenvolvimentoHumano": "0,500 (baixo)"
-    },
-    "comidasTipicas": ["Tajine", "Cuscuz"],
-    "principaisExportacoes": ["Fósseis", "Minerais"],
-    "eventoAtual": "Conflito político e esforços diplomáticos em curso.",
-    "imagem": "/images/sahara-ocidental.png"
-  },
-  {
-    "slug": "niue",
-    "nome": "Niue",
-    "continente": "Oceania",
-    "populacao": "1.600",
-    "indiceFelicidade": 6.0,
-    "linguaOficial": "Niueano, Inglês",
-    "moeda": "Dólar da Nova Zelândia (NZD)",
-    "capital": "Alofi",
-    "area": "260 km²",
-    "pib": "40 milhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Alofi"],
-    "turismo": ["Mergulho", "Paisagens naturais", "Cultura polinésia"],
-    "feriadosPrincipais": ["Dia da Independência", "Natal"],
-    "populacaoUrbanaRural": "70% urbana, 30% rural",
-    "esportesPopulares": ["Rugby", "Críquete"],
-    "curiosidades": [
-      "Estado associado à Nova Zelândia.",
-      "População pequena e comunidade unida.",
-      "Economia baseada em subsistência e turismo."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "75 anos",
-      "taxaAlfabetizacao": "95%",
-      "indiceDesenvolvimentoHumano": "0,700 (médio)"
-    },
-    "comidasTipicas": ["Peixe fresco", "Frutas tropicais"],
-    "principaisExportacoes": ["Turismo", "Produtos agrícolas"],
-    "eventoAtual": "Desenvolvimento de infraestrutura turística.",
-    "imagem": "/images/niue.png"
-  },
-  {
-    "slug": "ilha-norfolk",
-    "nome": "Ilha Norfolk",
-    "continente": "Oceania",
-    "populacao": "1.700",
-    "indiceFelicidade": 6.3,
-    "linguaOficial": "Inglês, Norfuk",
-    "moeda": "Dólar Australiano (AUD)",
-    "capital": "Kingston",
-    "area": "36 km²",
-    "pib": "50 milhões USD (2023)",
-    "clima": "Subtropical",
-    "principaisCidades": ["Kingston", "Burnt Pine"],
-    "turismo": ["Trilhas naturais", "Praias", "Cultura local"],
-    "feriadosPrincipais": ["Dia da Ilha", "Natal"],
-    "populacaoUrbanaRural": "80% urbana, 20% rural",
-    "esportesPopulares": ["Vela", "Futebol"],
-    "curiosidades": [
-      "Território australiano externo.",
-      "Língua Norfuk é uma mistura de inglês e francês.",
-      "Destino turístico com foco em ecoturismo."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "78 anos",
-      "taxaAlfabetizacao": "98%",
-      "indiceDesenvolvimentoHumano": "0,790 (alto)"
-    },
-    "comidasTipicas": ["Peixe fresco", "Frutas locais"],
-    "principaisExportacoes": ["Turismo", "Artesanato"],
-    "eventoAtual": "Iniciativas para preservação ambiental.",
-    "imagem": "/images/ilha-norfolk.png"
-  },
-  {
-    "slug": "tokelau",
-    "nome": "Tokelau",
-    "continente": "Oceania",
-    "populacao": "1.500",
-    "indiceFelicidade": 5.8,
-    "linguaOficial": "Tokelauano, Inglês",
-    "moeda": "Dólar da Nova Zelândia (NZD)",
-    "capital": "Atafu",
-    "area": "12 km²",
-    "pib": "12 milhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Atafu", "Nukunonu", "Fakaofo"],
-    "turismo": ["Praias", "Cultura polinésia", "Mergulho"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "90% urbana, 10% rural",
-    "esportesPopulares": ["Rugby", "Futebol"],
-    "curiosidades": [
-      "Território dependente da Nova Zelândia.",
-      "População pequena e isolada.",
-      "Economia baseada em pesca e ajuda externa."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "74 anos",
-      "taxaAlfabetizacao": "92%",
-      "indiceDesenvolvimentoHumano": "0,650 (médio-baixo)"
-    },
-    "comidasTipicas": ["Frutos do mar", "Plantas locais"],
-    "principaisExportacoes": ["Peixes", "Artesanato"],
-    "eventoAtual": "Projetos para energias renováveis e sustentabilidade.",
-    "imagem": "/images/tokelau.png"
-  },
-  {
-    "slug": "svalbard",
-    "nome": "Svalbard",
-    "continente": "Europa",
-    "populacao": "2.900",
-    "indiceFelicidade": 6.7,
-    "linguaOficial": "Norueguês, Russo",
-    "moeda": "Coroa Norueguesa (NOK)",
-    "capital": "Longyearbyen",
-    "area": "62.000 km²",
-    "pib": "400 milhões USD (2023)",
-    "clima": "Ártico",
-    "principaisCidades": ["Longyearbyen", "Barentsburg"],
-    "turismo": ["Aurora boreal", "Glaciares", "Vida selvagem ártica"],
-    "feriadosPrincipais": ["Dia Nacional da Noruega"],
-    "populacaoUrbanaRural": "100% urbana (pequenas comunidades)",
-    "esportesPopulares": ["Caminhadas", "Esqui"],
-    "curiosidades": [
-      "Tratado de Svalbard permite residência de várias nacionalidades.",
-      "Presença de bancos de sementes globais.",
-      "Ponto de pesquisa climática e ambiental."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "78 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,850 (alto)"
-    },
-    "comidasTipicas": ["Peixes", "Pratos locais noruegueses"],
-    "principaisExportacoes": ["Pesquisa científica"],
-    "eventoAtual": "Foco em pesquisa climática e conservação ambiental.",
-    "imagem": "/images/svalbard.png"
-  },
-  {
-    "slug": "ilha-de-man",
-    "nome": "Ilha de Man",
-    "continente": "Europa",
-    "populacao": "85 mil",
-    "indiceFelicidade": 7.4,
-    "linguaOficial": "Inglês, Manx",
-    "moeda": "Libra de Man (IMP)",
-    "capital": "Douglas",
-    "area": "572 km²",
-    "pib": "6 bilhões USD (2023)",
-    "clima": "Temperado oceânico",
-    "principaisCidades": ["Douglas", "Peel", "Ramsey"],
-    "turismo": ["Corrida de motos TT", "Trilhas históricas", "Museus"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "75% urbana, 25% rural",
-    "esportesPopulares": ["Motociclismo", "Futebol"],
-    "curiosidades": [
-      "Posse da Coroa Britânica com autonomia legislativa.",
-      "Idioma manx em processo de revitalização.",
-      "Paraíso fiscal e centro financeiro."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "81 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,880 (alto)"
-    },
-    "comidasTipicas": ["Peixe fresco", "Bara Brith"],
-    "principaisExportacoes": ["Serviços financeiros", "Turismo"],
-    "eventoAtual": "Promoção do turismo sustentável e cultura local.",
-    "imagem": "/images/ilha-de-man.png"
-  },
-  {
-    "slug": "jersey",
-    "nome": "Jersey",
-    "continente": "Europa",
-    "populacao": "108 mil",
-    "indiceFelicidade": 7.1,
-    "linguaOficial": "Inglês, Jèrriais",
-    "moeda": "Libra de Jersey (JEP)",
-    "capital": "Saint Helier",
-    "area": "116 km²",
-    "pib": "8,5 bilhões USD (2023)",
-    "clima": "Temperado oceânico",
-    "principaisCidades": ["Saint Helier", "Saint Saviour"],
-    "turismo": ["Praias", "História normanda", "Culinária"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "85% urbana 15% rural",
-    "esportesPopulares": ["Golfe", "Futebol"],
-    "curiosidades": [
-      "Maior das Ilhas do Canal.",
-      "Economia baseada em finanças e turismo.",
-      "Tem seu próprio sistema legal."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "82 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,890 (alto)"
-    },
-    "comidasTipicas": ["Lobster", "Jersey Royal potatoes"],
-    "principaisExportacoes": ["Serviços financeiros", "Agricultura"],
-    "eventoAtual": "Investimento em energias renováveis e turismo.",
-    "imagem": "/images/jersey.png"
-  },
-  {
-    "slug": "guernsey",
-    "nome": "Guernsey",
-    "continente": "Europa",
-    "populacao": "63 mil",
-    "indiceFelicidade": 7.0,
-    "linguaOficial": "Inglês, Francês",
-    "moeda": "Libra de Guernsey (GGP)",
-    "capital": "Saint Peter Port",
-    "area": "78 km²",
-    "pib": "5 bilhões USD (2023)",
-    "clima": "Temperado oceânico",
-    "principaisCidades": ["Saint Peter Port", "Saint Sampson"],
-    "turismo": ["História militar", "Praias", "Gastronomia"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "80% urbana 20% rural",
-    "esportesPopulares": ["Futebol", "Golfe"],
-    "curiosidades": [
-      "Território autônomo da Coroa Britânica.",
-      "Conhecida por sua culinária refinada.",
-      "Importante centro financeiro offshore."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "81 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,880 (alto)"
-    },
-    "comidasTipicas": ["Frutos do mar", "Garnaches"],
-    "principaisExportacoes": ["Serviços financeiros", "Turismo"],
-    "eventoAtual": "Foco em turismo cultural e preservação histórica.",
-    "imagem": "/images/guernsey.png"
-  },
-  {
-    "slug": "santa-helena-ascensao-e-tristao-da-cunha",
-    "nome": "Santa Helena, Ascensão e Tristão da Cunha",
-    "continente": "África",
-    "populacao": "6.000",
-    "indiceFelicidade": 6.2,
-    "linguaOficial": "Inglês",
-    "moeda": "Libra Esterlina (GBP)",
-    "capital": "Jamestown",
-    "area": "396 km²",
-    "pib": "20 milhões USD (estimado)",
-    "clima": "Subtropical",
-    "principaisCidades": ["Jamestown", "Georgetown", "Edinburgh of the Seven Seas"],
-    "turismo": ["História de Napoleão", "Paisagens vulcânicas", "Caminhadas"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "70% urbana, 30% rural",
-    "esportesPopulares": ["Futebol", "Pesca"],
-    "curiosidades": [
-      "Território britânico ultramarino.",
-      "Famoso por ter sido exílio de Napoleão Bonaparte.",
-      "População pequena e isolada."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "78 anos",
-      "taxaAlfabetizacao": "97%",
-      "indiceDesenvolvimentoHumano": "0,720 (médio)"
-    },
-    "comidasTipicas": ["Peixe fresco", "Frutas locais"],
-    "principaisExportacoes": ["Peixe", "Produtos agrícolas"],
-    "eventoAtual": "Iniciativas de turismo sustentável e energia renovável.",
-    "imagem": "/images/santa-helena.png"
   },
   {
     "slug": "angola",
@@ -5725,7 +4831,7 @@
   },
   {
     "slug": "camaroes",
-    "nome": "Camarões",
+    "nome": "Camaroes",
     "continente": "África",
     "populacao": "27 milhões",
     "indiceFelicidade": 4.5,
@@ -5853,7 +4959,7 @@
   },
   {
     "slug": "congo",
-    "nome": "Congo (Brazzaville)",
+    "nome": "Congo",
     "continente": "África",
     "populacao": "5,8 milhões",
     "indiceFelicidade": 4.4,
@@ -6492,38 +5598,6 @@
     "imagem": "/images/libia.png"
   },
   {
-    "slug": "madagascar",
-    "nome": "Madagáscar",
-    "continente": "África",
-    "populacao": "29 milhões",
-    "indiceFelicidade": 4.8,
-    "linguaOficial": "Malgaxe, Francês",
-    "moeda": "Ariary malgaxe (MGA)",
-    "capital": "Antananarivo",
-    "area": "587.041 km²",
-    "pib": "15 bilhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Antananarivo", "Toamasina", "Antsirabe"],
-    "turismo": ["Parque Nacional de Andasibe", "Avenida dos Baobás", "Ilhas Nosy Be"],
-    "feriadosPrincipais": ["Dia da Independência", "Famadihana", "Natal"],
-    "populacaoUrbanaRural": "38% urbana, 62% rural",
-    "esportesPopulares": ["Futebol", "Rugby"],
-    "curiosidades": [
-      "Ilha com enorme biodiversidade endêmica.",
-      "Economia baseada em agricultura e mineração.",
-      "Cultura influenciada por povos africanos e asiáticos."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "67 anos",
-      "taxaAlfabetizacao": "74%",
-      "indiceDesenvolvimentoHumano": "0,528 (baixo)"
-    },
-    "comidasTipicas": ["Romazava", "Ravitoto", "Mofo gasy"],
-    "principaisExportacoes": ["Baunilha", "Café", "Minérios"],
-    "eventoAtual": "Iniciativas para conservação ambiental e turismo sustentável.",
-    "imagem": "/images/madagascar.png"
-  },
-  {
     "slug": "malawi",
     "nome": "Malawi",
     "continente": "África",
@@ -6652,38 +5726,6 @@
     "imagem": "/images/moldavia.png"
   },
   {
-    "slug": "paises-baixos",
-    "nome": "Países Baixos",
-    "continente": "Europa",
-    "populacao": "17,8 milhões",
-    "indiceFelicidade": 7.4,
-    "linguaOficial": "Neerlandês",
-    "moeda": "Euro (EUR)",
-    "capital": "Amsterdã",
-    "area": "41.543 km²",
-    "pib": "1,04 trilhão USD (2023)",
-    "clima": "Temperado oceânico",
-    "principaisCidades": ["Amsterdã", "Roterdã", "Haia"],
-    "turismo": ["Museu Van Gogh", "Campos de tulipas", "Canais de Amsterdã"],
-    "feriadosPrincipais": ["Dia do Rei", "Natal", "Ano Novo"],
-    "populacaoUrbanaRural": "92% urbana, 8% rural",
-    "esportesPopulares": ["Ciclismo", "Futebol", "Patinação no gelo"],
-    "curiosidades": [
-      "Mais de 25% do território está abaixo do nível do mar.",
-      "Líder mundial em agricultura de alta tecnologia.",
-      "Sede de tribunais internacionais em Haia."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "82 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,941 (muito alto)"
-    },
-    "comidasTipicas": ["Stroopwafel", "Haring", "Bitterballen"],
-    "principaisExportacoes": ["Máquinas", "Flores", "Produtos agrícolas"],
-    "eventoAtual": "Foco em sustentabilidade e energia limpa.",
-    "imagem": "/images/paises-baixos.png"
-  },
-  {
     "slug": "peru",
     "nome": "Peru",
     "continente": "América do Sul",
@@ -6746,38 +5788,6 @@
     "principaisExportacoes": ["Têxteis", "Produtos agrícolas", "Minérios"],
     "eventoAtual": "Estabilização política e foco em turismo ecológico.",
     "imagem": "/images/quirguistao.png"
-  },
-  {
-    "slug": "qatar",
-    "nome": "Qatar",
-    "continente": "Ásia",
-    "populacao": "3 milhões",
-    "indiceFelicidade": 6.4,
-    "linguaOficial": "Árabe",
-    "moeda": "Rial catarense (QAR)",
-    "capital": "Doha",
-    "area": "11.586 km²",
-    "pib": "180 bilhões USD (2023)",
-    "clima": "Desértico",
-    "principaisCidades": ["Doha", "Al Rayyan", "Al Wakrah"],
-    "turismo": ["Museu de Arte Islâmica", "Corniche de Doha", "Deserto de Khor Al Adaid"],
-    "feriadosPrincipais": ["Dia Nacional", "Eid al-Fitr", "Eid al-Adha"],
-    "populacaoUrbanaRural": "100% urbana",
-    "esportesPopulares": ["Futebol", "Críquete"],
-    "curiosidades": [
-      "País rico em gás natural e petróleo.",
-      "Sede da Copa do Mundo FIFA 2022.",
-      "Pequeno, porém com alto PIB per capita."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "78 anos",
-      "taxaAlfabetizacao": "97%",
-      "indiceDesenvolvimentoHumano": "0,848 (muito alto)"
-    },
-    "comidasTipicas": ["Machbous", "Harees", "Saloona"],
-    "principaisExportacoes": ["Gás natural", "Petróleo"],
-    "eventoAtual": "Investimentos em diversificação econômica e turismo.",
-    "imagem": "/images/qatar.png"
   },
   {
     "slug": "reino-unido",
@@ -6876,70 +5886,6 @@
     "imagem": "/images/romenia.png"
   },
   {
-    "slug": "san-marino",
-    "nome": "San Marino",
-    "continente": "Europa",
-    "populacao": "34 mil",
-    "indiceFelicidade": 7.0,
-    "linguaOficial": "Italiano",
-    "moeda": "Euro (EUR)",
-    "capital": "San Marino",
-    "area": "61 km²",
-    "pib": "1,6 bilhões USD (2023)",
-    "clima": "Mediterrâneo",
-    "principaisCidades": ["San Marino", "Serravalle", "Borgo Maggiore"],
-    "turismo": ["Centro histórico", "Museus", "Festivais medievais"],
-    "feriadosPrincipais": ["Dia Nacional", "Natal"],
-    "populacaoUrbanaRural": "100% urbana",
-    "esportesPopulares": ["Futebol", "Tiro esportivo"],
-    "curiosidades": [
-      "Um dos menores países do mundo.",
-      "Reino independente desde o século IV.",
-      "Economia baseada em turismo e serviços financeiros."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "83 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,892 (muito alto)"
-    },
-    "comidasTipicas": ["Torta Tre Monti", "Faggioli all’uccelletto"],
-    "principaisExportacoes": ["Turismo", "Produtos têxteis"],
-    "eventoAtual": "Promoção do turismo cultural e histórico.",
-    "imagem": "/images/san-marino.png"
-  },
-  {
-    "slug": "seicheles",
-    "nome": "Seicheles",
-    "continente": "África",
-    "populacao": "100 mil",
-    "indiceFelicidade": 6.2,
-    "linguaOficial": "Inglês, Francês, Crioulo seichelense",
-    "moeda": "Rupia seichelense (SCR)",
-    "capital": "Victoria",
-    "area": "452 km²",
-    "pib": "1,6 bilhões USD (2023)",
-    "clima": "Tropical",
-    "principaisCidades": ["Victoria", "Anse Royale"],
-    "turismo": ["Praias paradisíacas", "Parque Nacional Morne Seychellois", "Mergulho"],
-    "feriadosPrincipais": ["Dia da Independência", "Natal"],
-    "populacaoUrbanaRural": "60% urbana, 40% rural",
-    "esportesPopulares": ["Futebol", "Vela"],
-    "curiosidades": [
-      "Maior centro financeiro das Ilhas do Oceano Índico.",
-      "País com alta biodiversidade marinha.",
-      "Economia baseada em turismo e pesca."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "73 anos",
-      "taxaAlfabetizacao": "95%",
-      "indiceDesenvolvimentoHumano": "0,796 (alto)"
-    },
-    "comidasTipicas": ["Peixe grelhado", "Curry de caranguejo", "Frutas tropicais"],
-    "principaisExportacoes": ["Turismo", "Pescado", "Coco"],
-    "eventoAtual": "Projetos para conservação ambiental e turismo sustentável.",
-    "imagem": "/images/seicheles.png"
-  },
-  {
     "slug": "servia",
     "nome": "Sérvia",
     "continente": "Europa",
@@ -7036,38 +5982,6 @@
     "imagem": "/images/taiwan.png"
   },
   {
-    "slug": "tajiquistao",
-    "nome": "Tajiquistão",
-    "continente": "Ásia",
-    "populacao": "10 milhões",
-    "indiceFelicidade": 4.1,
-    "linguaOficial": "Tadjique, Russo",
-    "moeda": "Somoni (TJS)",
-    "capital": "Dushanbe",
-    "area": "143.100 km²",
-    "pib": "9 bilhões USD (2023)",
-    "clima": "Montanhoso e continental",
-    "principaisCidades": ["Dushanbe", "Khujand", "Kulob"],
-    "turismo": ["Parque Nacional Pamir", "Vale Fann", "Lago Iskanderkul"],
-    "feriadosPrincipais": ["Dia da Independência", "Nowruz"],
-    "populacaoUrbanaRural": "27% urbana, 73% rural",
-    "esportesPopulares": ["Futebol", "Luta tradicional"],
-    "curiosidades": [
-      "País predominantemente montanhoso.",
-      "Rico em cultura persa e soviética.",
-      "Economia baseada em mineração e agricultura."
-    ],
-    "dadosDemograficos": {
-      "expectativaVida": "70 anos",
-      "taxaAlfabetizacao": "99%",
-      "indiceDesenvolvimentoHumano": "0,668 (médio)"
-    },
-    "comidasTipicas": ["Qurutob", "Plov", "Sambusa"],
-    "principaisExportacoes": ["Alumínio", "Têxteis", "Frutas"],
-    "eventoAtual": "Investimentos em infraestrutura e turismo.",
-    "imagem": "/images/tajiquistao.png"
-  },
-  {
     "slug": "tanzania",
     "nome": "Tanzânia",
     "continente": "África",
@@ -7101,7 +6015,7 @@
   },
   {
     "slug": "trinidad-e-tobago",
-    "nome": "Trinidad e Tobago",
+    "nome": "Trindade e Tobago",
     "continente": "América Central",
     "populacao": "1,4 milhão",
     "indiceFelicidade": 6.5,
@@ -7226,6 +6140,102 @@
     "principaisExportacoes": ["Minérios", "Carvão", "Produtos agrícolas"],
     "eventoAtual": "Foco em desenvolvimento econômico e redução das desigualdades.",
     "imagem": "/images/africa-do-sul.png"
-  }
+  },
+  {
+  "slug": "palestina",
+  "nome": "Palestina",
+  "continente": "Ásia",
+  "populacao": "5 milhões",
+  "indiceFelicidade": 4.7,
+  "linguaOficial": "Árabe",
+  "moeda": "Shekel israelense (ILS), Dinar jordaniano (JOD)",
+  "capital": "Jerusalém Oriental (reivindicada), Ramallah (sede administrativa)",
+  "area": "6.020 km²",
+  "pib": "18 bilhões USD (2023, estimado)",
+  "clima": "Mediterrâneo e semiárido",
+  "principaisCidades": ["Ramallah", "Gaza", "Hebron", "Nablus"],
+  "turismo": ["Belém", "Jerusalém Oriental", "Mar Morto"],
+  "feriadosPrincipais": ["Dia da Terra", "Eid al-Fitr", "Natal (em Belém)"],
+  "populacaoUrbanaRural": "74% urbana, 26% rural",
+  "esportesPopulares": ["Futebol", "Atletismo"],
+  "curiosidades": [
+    "Status de observador na ONU.",
+    "Dividida entre Cisjordânia e Faixa de Gaza.",
+    "Importante para religiões abraâmicas."
+  ],
+  "dadosDemograficos": {
+    "expectativaVida": "74 anos",
+    "taxaAlfabetizacao": "97%",
+    "indiceDesenvolvimentoHumano": "0,715 (médio)"
+  },
+  "comidasTipicas": ["Hummus", "Falafel", "Maqluba"],
+  "principaisExportacoes": ["Produtos agrícolas", "Artesanato"],
+  "eventoAtual": "Conflitos e tensões geopolíticas persistem.",
+  "imagem": "/images/palestina.png"
+},
+{
+  "slug": "samoa",
+  "nome": "Samoa",
+  "continente": "Oceania",
+  "populacao": "225 mil",
+  "indiceFelicidade": 6.4,
+  "linguaOficial": "Samoano, Inglês",
+  "moeda": "Tala samoano (WST)",
+  "capital": "Apia",
+  "area": "2.842 km²",
+  "pib": "860 milhões USD (2023)",
+  "clima": "Tropical úmido",
+  "principaisCidades": ["Apia", "Vaitele", "Faleasi'u"],
+  "turismo": ["Praias tropicais", "Cachoeira Papase'ea", "To Sua Ocean Trench"],
+  "feriadosPrincipais": ["Dia da Independência", "Ano Novo", "Natal"],
+  "populacaoUrbanaRural": "20% urbana, 80% rural",
+  "esportesPopulares": ["Rugby", "Críquete", "Vela"],
+  "curiosidades": [
+    "Mudou de fuso horário em 2011 para se alinhar à Austrália e Nova Zelândia.",
+    "Cultura fortemente baseada na tradição ‘fa'a Samoa’.",
+    "Tem representação nas Olimpíadas, especialmente no levantamento de peso."
+  ],
+  "dadosDemograficos": {
+    "expectativaVida": "75 anos",
+    "taxaAlfabetizacao": "99%",
+    "indiceDesenvolvimentoHumano": "0,722 (médio)"
+  },
+  "comidasTipicas": ["Palusami", "Oka", "Taro"],
+  "principaisExportacoes": ["Peixe", "Óleo de coco", "Produtos agrícolas"],
+  "eventoAtual": "Investimentos crescentes em turismo sustentável.",
+  "imagem": "/images/samoa.png"
+},
+{
+  "slug": "santa-se",
+  "nome": "Santa Sé",
+  "continente": "Europa",
+  "populacao": "800",
+  "indiceFelicidade": 7.1,
+  "linguaOficial": "Italiano, Latim",
+  "moeda": "Euro (EUR)",
+  "capital": "Cidade do Vaticano",
+  "area": "0,49 km²",
+  "pib": "1 bilhão USD (estimado, 2023)",
+  "clima": "Mediterrâneo",
+  "principaisCidades": ["Cidade do Vaticano"],
+  "turismo": ["Basílica de São Pedro", "Capela Sistina", "Museus do Vaticano"],
+  "feriadosPrincipais": ["Páscoa", "Natal", "Dia de São Pedro e São Paulo"],
+  "populacaoUrbanaRural": "100% urbana",
+  "esportesPopulares": ["Nenhum esporte oficial, mas o futebol é popular entre residentes"],
+  "curiosidades": [
+    "Menor país do mundo em área e população.",
+    "Centro espiritual da Igreja Católica.",
+    "Governado pelo Papa."
+  ],
+  "dadosDemograficos": {
+    "expectativaVida": "75 anos (média estimada)",
+    "taxaAlfabetizacao": "100%",
+    "indiceDesenvolvimentoHumano": "N/A (não calculado pela ONU)"
+  },
+  "comidasTipicas": ["Culinária italiana tradicional", "Pratos simbólicos religiosos"],
+  "principaisExportacoes": ["Livros religiosos", "Selos", "Souvenirs"],
+  "eventoAtual": "Debates sobre reformas na Igreja e meio ambiente.",
+  "imagem": "/images/santa-se.png"
+}
 
 ]

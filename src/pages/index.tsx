@@ -14,7 +14,7 @@ export default function Home({ paises }: HomeProps) {
   return (
     <Layout>
       <Head>
-        <title>InfoMundi 🌍</title>
+        <title>InfoMundi</title>
         <meta name="description" content="Dados e curiosidades sobre países do mundo" />
       </Head>
       
