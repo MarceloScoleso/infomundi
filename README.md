@@ -39,7 +39,7 @@ git clone https://github.com/MarceloScoleso/infomundi.git
 2. **Entre na pasta do projeto:**
 
 
-cd info-mundi
+cd infomundi
 
 
 3. **Instale as dependências:**
