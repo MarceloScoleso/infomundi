@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { useState, useEffect } from "react"
 
+
 export default function Header() {
   const [isDark, setIsDark] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -23,31 +24,14 @@ export default function Header() {
 
   return (
     <header className="bg-gray-100 dark:bg-gray-800 shadow sticky top-0 z-50 transition-colors duration-500">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
-        <Link href="/" className="text-blue-600 dark:text-blue-400 text-3xl font-extrabold tracking-tight hover:text-indigo-500 dark:hover:text-indigo-300 transition">
-          InfoMundi 🌍
-        </Link>
+      <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0">
+        {/* Logo + Menu */}
+        <div className="flex justify-between items-center w-full md:w-auto">
+          <Link href="/" className="text-blue-600 dark:text-blue-400 text-3xl font-extrabold tracking-tight hover:text-indigo-500 dark:hover:text-indigo-300 transition">
+            InfoMundi 🌍
+          </Link>
 
-        {/* Menu desktop */}
-        <nav className="hidden md:flex space-x-6 text-blue-600 dark:text-blue-400 font-medium">
-          <Link href="/" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Home</Link>
-          <Link href="/sobre" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Sobre</Link>
-          <Link href="/estatisticas" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Estatísticas</Link>
-          <Link href="/contato" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Contato</Link>
-        </nav>
-
-        {/* Botões */}
-        <div className="flex items-center space-x-4">
-          <button
-            onClick={toggleDark}
-            aria-label="Alternar tema claro e escuro"
-            className="text-blue-500 dark:text-blue-300 font-medium transition focus:outline-none"
-          >
-            {isDark ? "☀️ Claro" : "🌙 Escuro"}
-          </button>
-
-          {/* Botão para abrir menu mobile */}
+          {/* Botão menu mobile */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-blue-600 dark:text-blue-400 focus:outline-none"
@@ -63,14 +47,33 @@ export default function Header() {
               strokeLinejoin="round"
             >
               {menuOpen ? (
-                <path d="M6 18L18 6M6 6l12 12" /> // X para fechar
+                <path d="M6 18L18 6M6 6l12 12" />
               ) : (
-                <path d="M3 12h18M3 6h18M3 18h18" /> // 3 linhas menu
+                <path d="M3 12h18M3 6h18M3 18h18" />
               )}
             </svg>
           </button>
         </div>
-      </div>
+
+        {/* Menu desktop */}
+        <nav className="hidden md:flex space-x-6 text-blue-600 dark:text-blue-400 font-medium">
+          <Link href="/" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Home</Link>
+          <Link href="/sobre" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Sobre</Link>
+          <Link href="/estatisticas" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Estatísticas</Link>
+          <Link href="/contato" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Contato</Link>
+        </nav>
+
+        {/* Botões e barra de busca */}
+
+          <button
+            onClick={toggleDark}
+            aria-label="Alternar tema claro e escuro"
+            className="text-blue-500 dark:text-blue-300 font-medium transition focus:outline-none"
+          >
+            {isDark ? "☀️ Claro" : "🌙 Escuro"}
+          </button>
+        </div>
+      
 
       {/* Menu mobile */}
       {menuOpen && (

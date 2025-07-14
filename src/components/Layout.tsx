@@ -1,10 +1,15 @@
 import { ReactNode } from "react"
 import Header from "./Header"
 
-export default function Layout({ children }: { children: ReactNode }) {
+interface LayoutProps {
+  children: ReactNode
+  exibirBusca?: boolean
+}
+
+export default function Layout({ children = false }: LayoutProps) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-500">
-      <Header />
+      <Header/>
       <main className="flex-grow max-w-7xl mx-auto px-6 py-10">
         {children}
       </main>
