@@ -1,40 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# InfoMundi 🌍
 
-## Getting Started
+## Sobre o Projeto
 
-First, run the development server:
+O **InfoMundi** é uma plataforma web interativa que tem como objetivo fornecer informações relevantes, curiosidades e dados atualizados sobre diversos países ao redor do mundo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A proposta do projeto é reunir dados culturais, geográficos, demográficos e econômicos de forma acessível, organizada e com visual agradável, permitindo que usuários descubram detalhes interessantes sobre cada nação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Visualização de informações detalhadas sobre países.
+- Dados como população, idioma, moeda, IDH, comidas típicas e curiosidades.
+- Modo escuro e claro com alternância de tema.
+- Navegação por cards interativos.
+- Design responsivo para dispositivos móveis e desktops.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tecnologias Utilizadas
 
-## Learn More
+- **Next.js** — Framework React para renderização estática e rotas dinâmicas.
+- **TypeScript** — Tipagem estática para maior segurança no desenvolvimento.
+- **Tailwind CSS** — Utilizado para estilização moderna e responsiva.
+- **Lucide React** — Biblioteca de ícones leve e elegante.
+- **Arquivo JSON** — Para armazenamento e simulação de dados estáticos.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Como rodar o projeto localmente
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone o repositório:**
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+git clone https://github.com/MarceloScoleso/infomundi.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
+2. **Entre na pasta do projeto:**
+
+
+cd info-mundi
+
+
+3. **Instale as dependências:**
+
+
+npm install
+ ou
+yarn install
+
+
+4. **Execute o servidor de desenvolvimento:**
+
+
+http://localhost:3000
+
+
+## Estrutura do projeto
+
+- **/pages** — Páginas e rotas da aplicação.
+- **/components** — Componentes reutilizáveis.
+- **/data** — Arquivos JSON com dados dos países.
+- **/styles** — Arquivos de estilo Tailwind CSS.
+- **/public** — Arquivos estáticos públicos.
+
+
+## Observações
+
+Este projeto é uma iniciativa educacional e demonstrativa, com foco em boas práticas de desenvolvimento front-end e organização de componentes reutilizáveis.
+
