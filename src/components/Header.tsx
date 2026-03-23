@@ -1,87 +1,104 @@
 import Link from "next/link"
 import { useState, useEffect } from "react"
-
-
+ 
 export default function Header() {
   const [isDark, setIsDark] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-
+ 
   useEffect(() => {
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setIsDark(true)
-      document.documentElement.classList.add('dark')
+      document.documentElement.classList.add("dark")
     }
   }, [])
-
+ 
   function toggleDark() {
     setIsDark(!isDark)
     if (isDark) {
-      document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove("dark")
     } else {
-      document.documentElement.classList.add('dark')
+      document.documentElement.classList.add("dark")
     }
   }
-
+ 
   return (
-    <header className="bg-gray-100 dark:bg-gray-800 shadow sticky top-0 z-50 transition-colors duration-500">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0">
-        {/* Logo + Menu */}
-        <div className="flex justify-between items-center w-full md:w-auto">
-          <Link href="/" className="text-blue-600 dark:text-blue-400 text-3xl font-extrabold tracking-tight hover:text-indigo-500 dark:hover:text-indigo-300 transition">
-            InfoMundi 🌍
-          </Link>
-
-          {/* Botão menu mobile */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-blue-600 dark:text-blue-400 focus:outline-none"
-            aria-label="Abrir menu"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+    <header className="bg-[#0d1117] dark:bg-[#080b10] sticky top-0 z-50 border-b border-white/5">
+      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+ 
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-2 group">
+          <span className="w-2 h-2 rounded-full bg-[#c8411a] group-hover:scale-125 transition-transform duration-200" />
+          <span className="font-['Fraunces',serif] text-xl font-bold text-[#f5f1e8] tracking-tight">
+            InfoMundi
+          </span>
+        </Link>
+ 
+        {/* Desktop nav */}
+        <nav className="hidden md:flex items-center gap-7">
+          {[
+            { href: "/", label: "Home" },
+            { href: "/sobre", label: "Sobre" },
+            { href: "/estatisticas", label: "Estatísticas" },
+            { href: "/contato", label: "Contato" },
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="text-[13px] text-[#f5f1e8]/50 hover:text-[#f5f1e8] transition-colors duration-200 tracking-wide"
             >
-              {menuOpen ? (
-                <path d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path d="M3 12h18M3 6h18M3 18h18" />
-              )}
-            </svg>
-          </button>
-        </div>
-
-        {/* Menu desktop */}
-        <nav className="hidden md:flex space-x-6 text-blue-600 dark:text-blue-400 font-medium">
-          <Link href="/" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Home</Link>
-          <Link href="/sobre" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Sobre</Link>
-          <Link href="/estatisticas" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Estatísticas</Link>
-          <Link href="/contato" className="hover:text-blue-500 dark:hover:text-blue-300 transition">Contato</Link>
-        </nav>
-
-        {/* Botões e barra de busca */}
-
+              {label}
+            </Link>
+          ))}
+ 
           <button
             onClick={toggleDark}
-            aria-label="Alternar tema claro e escuro"
-            className="text-blue-500 dark:text-blue-300 font-medium transition focus:outline-none"
+            aria-label="Alternar tema"
+            className="ml-2 text-[12px] text-[#f5f1e8]/50 hover:text-[#f5f1e8] border border-white/10 rounded-full px-3 py-1 transition-colors duration-200"
           >
-            {isDark ? "☀️ Claro" : "🌙 Escuro"}
+            {isDark ? "☀ Claro" : "☽ Escuro"}
           </button>
-        </div>
-      
-
-      {/* Menu mobile */}
+        </nav>
+ 
+        {/* Mobile menu button */}
+        <button
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Abrir menu"
+          className="md:hidden text-[#f5f1e8]/60 hover:text-[#f5f1e8] transition-colors"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+            {menuOpen ? (
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 12h18M3 6h18M3 18h18" />
+            )}
+          </svg>
+        </button>
+      </div>
+ 
+      {/* Mobile menu */}
       {menuOpen && (
-        <nav className="md:hidden bg-white dark:bg-gray-800 px-6 py-4 space-y-4 border-t border-gray-200 dark:border-gray-700 transition-colors duration-500">
-          <Link href="/" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link href="/sobre" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Sobre</Link>
-          <Link href="/estatisticas" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Estatísticas</Link>
-          <Link href="/contato" className="block text-indigo-600 dark:text-indigo-400 font-medium hover:text-indigo-500 dark:hover:text-indigo-300 transition" onClick={() => setMenuOpen(false)}>Contato</Link>
+        <nav className="md:hidden bg-[#0d1117] border-t border-white/5 px-6 py-5 flex flex-col gap-4">
+          {[
+            { href: "/", label: "Home" },
+            { href: "/sobre", label: "Sobre" },
+            { href: "/estatisticas", label: "Estatísticas" },
+            { href: "/contato", label: "Contato" },
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              onClick={() => setMenuOpen(false)}
+              className="text-[14px] text-[#f5f1e8]/60 hover:text-[#f5f1e8] transition-colors"
+            >
+              {label}
+            </Link>
+          ))}
+          <button
+            onClick={() => { toggleDark(); setMenuOpen(false) }}
+            className="text-left text-[13px] text-[#f5f1e8]/50 hover:text-[#f5f1e8] transition-colors"
+          >
+            {isDark ? "☀ Modo claro" : "☽ Modo escuro"}
+          </button>
         </nav>
       )}
     </header>

@@ -1,20 +1,22 @@
 import { ReactNode } from "react"
 import Header from "./Header"
-
+ 
 interface LayoutProps {
   children: ReactNode
-  exibirBusca?: boolean
 }
-
-export default function Layout({ children = false }: LayoutProps) {
+ 
+export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-sans transition-colors duration-500">
-      <Header/>
-      <main className="flex-grow max-w-7xl mx-auto px-6 py-10">
+    <div className="min-h-screen flex flex-col bg-[#f5f1e8] dark:bg-[#0d1117] text-[#0d1117] dark:text-[#f5f1e8] font-['DM_Sans',sans-serif] transition-colors duration-300">
+      <Header />
+      <main className="flex-grow max-w-7xl mx-auto w-full px-6 py-10">
         {children}
       </main>
-      <footer className="bg-indigo-600 dark:bg-indigo-800 text-indigo-100 dark:text-indigo-200 text-center text-sm py-6 mt-20 transition-colors duration-500">
-        © {new Date().getFullYear()} InfoMundi. Criado por Marcelo Antônio.
+      <footer className="bg-[#0d1117] dark:bg-[#080b10] text-[#f5f1e8]/40 border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span className="font-['Fraunces',serif] text-[#f5f1e8]/80 font-bold text-base">InfoMundi</span>
+          <span className="text-[12px]">© {new Date().getFullYear()} InfoMundi · Criado por Marcelo Antônio</span>
+        </div>
       </footer>
     </div>
   )
